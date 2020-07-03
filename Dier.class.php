@@ -2,10 +2,12 @@
 class Dier
 {
     public $dier;
-    public function eat() {
+    public function eat()
+    {
         echo $this->dier . " says: gobble gobble" . PHP_EOL;
     }
-    public function sleep() {
+    public function sleep()
+    {
         echo $this->dier . " says: zzzZZzZzZz" . PHP_EOL;
     }
 }

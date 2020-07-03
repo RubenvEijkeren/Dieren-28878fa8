@@ -8,7 +8,8 @@ class Vis extends Dier
         $this->dier = 'Vis';
     }
 
-    public function speak() {
+    public function speak()
+    {
         echo "blub blub" . PHP_EOL;
     }
 }

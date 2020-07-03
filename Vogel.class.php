@@ -8,7 +8,8 @@ class Vogel extends Dier
         $this->dier = 'Vogel';
     }
 
-    public function speak() {
+    public function speak()
+    {
         echo "chirp chirp" . PHP_EOL;
     }
 }
